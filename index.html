@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta metacharset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alura Books</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<header class="header">
+  <h1><img src="imagens/Logo-1.png" /></h1>
+</header>
+
+<body>
+
+  <section class="banner"></section>
+
+  <section>
+    <nav class="wrap">
+      <ul class="nav">
+        <li><button class="btn btn-front" data-books="front-end">LIVROS DE FRONT-END</button></li>
+        <li><button class="btn btn-back" data-books="back-end">LIVROS DE BACK-END</button></li>
+        <li><button class="btn btn-dados" data-books="dados">LIVROS DE DADOS</button></li>
+        <li><button class="btn btn-disponiveis" data-available="available">LIVROS DISPONÍVEIS</button></li>
+        <li><button class="btn btn-ordenacao" data-price="smaller">MENOR PREÇO</button></li>
+        <li><button class="btn btn-ordenacao" data-price="biggest">MAIOR PREÇO</button></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section class="livros wrap" id="livros">
+  </section>
+
+  <section id="valor_total_livros_disponiveis">
+    <!-- <div class="livros__disponiveis">
+      <p>Todos os livros disponíveis por R$ <span id="preco-todos"></span></p>
+    </div> -->
+  </section>
+
+  <footer class="rodape">
+    <p>Alura - Mergulhe em tecnologia</p>
+  </footer>
+
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>
